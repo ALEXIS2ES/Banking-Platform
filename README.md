@@ -25,10 +25,10 @@ $ java -jar axonserver.jar
 
 ## ingresar a la capeta descomprimida y correr axon  en el terminal de intellij index
 
-$ C:\Users\INTEL> d:
-$ D:\>cd tools
-$ D:\tools>cd AxonServer-2024.1.4
-$ D:\tools\AxonServer-2024.1.4> java -jar axonserver.jar
+# C:\Users\INTEL> d:
+# D:\>cd tools
+# D:\tools>cd AxonServer-2024.1.4
+# D:\tools\AxonServer-2024.1.4> java -jar axonserver.jar
      _                     ____
     / \   __  _____  _ __ / ___|  ___ _ ____   _____ _ __
    / _ \  \ \/ / _ \| '_ \\___ \ / _ \ '__\ \ / / _ \ '__|
