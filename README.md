@@ -24,18 +24,20 @@ $ java -jar axonserver.jar
 - https://download.axoniq.io/axonserver/AxonServer.zip
 
 ## ingresar a la capeta descomprimida y correr axon  en el terminal de intellij index
-
-# C:\Users\INTEL> d:
-# D:\>cd tools
-# D:\tools>cd AxonServer-2024.1.4
-# D:\tools\AxonServer-2024.1.4> java -jar axonserver.jar
+```
+$ C:\Users\INTEL> d:
+$ D:\>cd tools
+$ D:\tools>cd AxonServer-2024.1.4
+$ D:\tools\AxonServer-2024.1.4> java -jar axonserver.jar
+```
+```
      _                     ____
     / \   __  _____  _ __ / ___|  ___ _ ____   _____ _ __
    / _ \  \ \/ / _ \| '_ \\___ \ / _ \ '__\ \ / / _ \ '__|
   / ___ \  >  < (_) | | | |___) |  __/ |   \ V /  __/ |
  /_/   \_\/_/\_\___/|_| |_|____/ \___|_|    \_/ \___|_|
  2024.1.4                      Powered by AxonIQ
-
+```
 # Me dirijo a entornos de variables
 
 ![alt text](image-1.png)
@@ -99,7 +101,7 @@ C:\Users\INTEL>docker run --name mysql8-container -e MYSQL_ROOT_PASSWORD=123456 
 3. ojo estos dos se pueden solucionar desde el IDE de Intellij IDE en configuracion
 
 # levantar la aplicacion
-
+```
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
 ( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
@@ -108,7 +110,7 @@ C:\Users\INTEL>docker run --name mysql8-container -e MYSQL_ROOT_PASSWORD=123456 
  =========|_|==============|___/=/_/_/_/
 
  :: Spring Boot ::                (v3.4.0)
-
+```
 ![alt text](image-5.png)
 
 # ingresas a los siguientes link para el axon y el swagger
