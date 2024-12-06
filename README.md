@@ -49,20 +49,11 @@ $ D:\tools\AxonServer-2024.1.4> java -jar axonserver.jar
 1.  nombre de la variable: AXONSERVER_SERVERS 
     valor de la variable: localhost:8124
 
-    # luego le das en aceptar 
-    # despues le das en nueva
-
 2.  nombre de la variable: ADATASOURCE_URL 
     valor de la variable: jdbc:mysql://localhost:3306/banking-es?serverTimezone=UTC
 
-    # luego le das en aceptar 
-    # despues le das en nueva
-
 3.  nombre de la variable: ADATASOURCE_USERNAME 
     valor de la variable: admin
-
-    # luego le das en aceptar 
-    # despues le das en nueva
 
 4. nombre de la variable: DATASOURCE_PASSWORD 
     valor de la variable: 123456
@@ -71,9 +62,9 @@ $ D:\tools\AxonServer-2024.1.4> java -jar axonserver.jar
     # despues le das en aceptar
 
 # ahora crearemos el servicio en docker por comandos en CMD o Powershell
-
+```
 1. win + R    e introduces CMD
-
+```
 2. Crear nuevo contenedor en docker mediante CMD (tener instalado docker desktop) 
 
 C:\Users\INTEL>docker run --name mysql8-container -e MYSQL_ROOT_PASSWORD=123456 -e MYSQL_DATABASE=banking-es -e MYSQL_USER=admin -e MYSQL_PASSWORD=123456 -p 3306:3306 -d mysql:8.0 
